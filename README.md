@@ -28,7 +28,7 @@ See `SELF_SETUP.md` for the agent-facing setup flow.
 - `extensions/`
 - `skills/`
 - `settings.json`
-- `trust.json`
+- `trust.example.json`
 - `git/.gitignore`
 
 ## What is not tracked
@@ -41,5 +41,5 @@ See `SELF_SETUP.md` for the agent-facing setup flow.
 
 ## Notes
 
-- `auth.json` stays local on each machine.
+- `auth.json` and `trust.json` stay local on each machine.
 - Some extensions need extra system tools like `yt-dlp`, `ffmpeg`, and Python.

@@ -11,7 +11,7 @@ Bring the local Pi install in sync with this repo:
 - `~/.pi/agent/extensions/`
 - `~/.pi/agent/skills/`
 - `~/.pi/agent/settings.json`
-- `~/.pi/agent/trust.json`
+- `~/.pi/agent/trust.json` (local only; not tracked here)
 - any local auth files the user already has, such as `~/.pi/agent/auth.json`
 
 ## Agent procedure
@@ -29,6 +29,7 @@ Bring the local Pi install in sync with this repo:
 
 - Treat this repo as the canonical config snapshot.
 - Prefer merging over replacing if the local Pi config already has user-specific changes.
+- If `trust.json` exists locally, keep the local file private and do not copy it into git.
 - If a file exists locally and in the repo, reconcile intentionally.
 - If the local Pi install is missing trust data, the agent may need to trust the repo or user folder before loading project-local resources.
 
