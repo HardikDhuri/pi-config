@@ -13,4 +13,5 @@ This repo stores Pi configuration and setup material.
 
 ## Setup
 
-Use `./scripts/bootstrap.sh` to copy the repo into `~/.pi/agent/` and install dependencies.
+A Pi agent should follow `SELF_SETUP.md` and update `~/.pi/agent/` directly from the repo contents.
+Do not depend on `scripts/bootstrap.sh` as the primary setup path.

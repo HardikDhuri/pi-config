@@ -10,16 +10,18 @@ Contains:
 
 ## Quick start
 
+This repo is the canonical Pi config snapshot.
+A Pi agent should read `SELF_SETUP.md` and apply the repo contents to `~/.pi/agent/` directly.
+
 1. Clone this repo.
-2. Copy the files into `~/.pi/agent/`.
-3. Install extension deps.
-4. Run `/reload` in Pi.
+2. Sync `extensions/` and `skills/` into `~/.pi/agent/`.
+3. Merge `settings.json` and `trust.json` as needed.
+4. Install extension deps.
+5. Run `/reload` in Pi.
 
-## Bootstrap
+## Self-setup guide
 
-```bash
-./scripts/bootstrap.sh
-```
+See `SELF_SETUP.md` for the agent-facing setup flow.
 
 ## What is tracked
 
