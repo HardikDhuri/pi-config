@@ -1,0 +1,20 @@
+{
+  "name": "pi-extension-openai-codex-quota",
+  "version": "1.0.0",
+  "description": "OpenAI Codex / ChatGPT Plus & Pro subscription quota, rate limit & credits monitor for Pi Agent",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": [
+    "pi-extension",
+    "openai",
+    "chatgpt",
+    "codex",
+    "quota"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+**/node_modules/
+**/.venv/
+sessions/
+auth.json
+models-store.json
+.DS_Store
